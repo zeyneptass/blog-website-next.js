@@ -16,10 +16,11 @@ export default function Header() {
         </Link>
 
         <nav className='hidden md:flex space-x-6'>
-          <Link href="/" className='text-white font-bold hover:text-gray-300'>Home</Link>
-          <Link href="/" className='text-white font-bold hover:text-gray-300'>About</Link>
-          <Link href="/" className='text-white font-bold hover:text-gray-300'>Blog</Link>
-          <Link href="/" className='text-white font-bold hover:text-gray-300'>Contact</Link>
+          <Link href="/home" className='text-white font-bold hover:text-gray-300'>Home</Link>
+          <Link href="/about" className='text-white font-bold hover:text-gray-300'>About</Link>
+          <Link href="/blog" className='text-white font-bold hover:text-gray-300'>Blog</Link>
+          <Link href="/blog2" className='text-white font-bold hover:text-gray-300'>Blog2</Link>
+          <Link href="/contact" className='text-white font-bold hover:text-gray-300'>Contact</Link>
           </nav>
         <div className='flex items-center space-x-2'>
           <Button variant="light">
